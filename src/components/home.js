@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NavBar from './navbar';
 import { css } from 'glamor';
 
 let rule = css({
@@ -17,8 +18,8 @@ let rule = css({
 class Home extends Component {
   render() {
     return (
-      <div {...rule}>
-        Zomg
+      <div>
+        <NavBar />
       </div>
     );
   }
