@@ -1,18 +1,4 @@
-import React, { Component } from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import Home from './components/home';
-import './App.css';
+import React from 'react';
+import Routes from './routes';
 
-class App extends Component {
-  render() {
-    return (
-      <BrowserRouter>
-        <div className="App">
-          <Home />
-        </div>
-      </BrowserRouter>
-    );
-  }
-}
-
-export default App;
+export default () => <Routes />;

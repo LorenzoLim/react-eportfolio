@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
-import { css } from 'glamor';
+// import { Link } from 'react-router-dom';
+// import { css } from 'glamor';
 
-let rule = css({
-  height: '80px',
-  display: 'block',
-  position: 'fixed',
-  width: '100%',
-  zIndex: '1'
-})
+// let s = css({
+//   background: 'black'
+// })
 
 class NavBar extends Component {
   render() {
     return (
-      <div>
-      </div>
+      <div>Hello</div>
     );
   }
 }
