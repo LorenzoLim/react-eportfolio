@@ -6,6 +6,7 @@ class Home extends Component {
     return (
       <div>
         <NavBar />
+        <img src="../images/village.jpg" alt="Village" />
       </div>
     );
   }
