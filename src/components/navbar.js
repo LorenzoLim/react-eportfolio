@@ -10,14 +10,29 @@ const s = css({
   width: '100%'
 })
 
+const navButton = css({
+  width: '100px',
+  float: 'right',
+  margin: '20px'
+})
+
 class NavBar extends Component {
   render() {
     return (
       <div {...s}>
         <img alt="Landing Page" src={ logo } style={{width: '', height: ''}} />
-        <span>
-          Home Contact Portfolio About
-        </span>
+        <div {...navButton} >
+          About
+        </div>
+        <div {...navButton} >
+          Portfolio
+        </div>
+        <div {...navButton} >
+          Contact
+        </div>
+        <div {...navButton} >
+          Home
+        </div>
       </div>
     );
   }
