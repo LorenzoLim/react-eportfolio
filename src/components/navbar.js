@@ -13,7 +13,8 @@ const s = css({
 const navButton = css({
   width: '100px',
   float: 'right',
-  margin: '20px'
+  margin: '20px',
+  color: 'white'
 })
 
 class NavBar extends Component {
