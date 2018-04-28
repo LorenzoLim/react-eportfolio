@@ -15,9 +15,9 @@ class NavBar extends Component {
     return (
       <div {...s}>
         <img alt="Landing Page" src={ logo } style={{width: '', height: ''}} />
-        <div>
+        <span>
           Home Contact Portfolio About
-        </div>
+        </span>
       </div>
     );
   }
