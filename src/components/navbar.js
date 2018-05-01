@@ -14,7 +14,7 @@ class NavBar extends Component {
   render() {
     return (
       <div {...s}>
-        <img alt="Landing Page" src={ logo } style={{width: '', height: ''}} />
+        <img id="logo" alt="Landing Page" src={ logo } />
         <div className="navButton" >
           About
         </div>

@@ -7,10 +7,12 @@ body {
 
 .navButton {
   font-family: 'Raleway';
-  width: 100px;
+  font-size: 25px;
+  min-width: 20px;
+  line-height: 60px;
+  padding: 0 40px;
   float: right;
-  margin: 20px;
-  color: white;
+  color: black;
 }
 
 .navButton:hover {
