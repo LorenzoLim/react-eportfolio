@@ -5,6 +5,10 @@ body {
   font-family: sans-serif;
 }
 
+#logo {
+  padding: 10px;
+}
+
 .navButton {
   font-family: 'Raleway';
   font-size: 25px;
