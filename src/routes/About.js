@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import NavBar from '../components/navbar';
 
-class Home extends Component {
+class About extends Component {
   render() {
     return (
       <div>
+        <title>About</title>
         <NavBar />
       </div>
     );
   }
 }
 
-export default Home;
+export default About;
