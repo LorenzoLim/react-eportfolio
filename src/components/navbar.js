@@ -15,10 +15,12 @@ class NavBar extends Component {
     return (
       <div {...s}>
         <img id="logo" alt="Landing Page" src={ logo } />
+        <div>
           <Link to="/About" className="navButton">About</Link>
           <Link to="/Portfolio" className="navButton">Portfolio</Link>
           <Link to="/Contact" className="navButton">Contact</Link>
           <Link to="/" className="navButton">Home</Link>
+        </div>
       </div>
     );
   }

@@ -9,11 +9,36 @@ body {
   padding: 10px;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url('./images/village.jpg');
+
+    /* Set a specific height */
+    min-height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+  height: 800px;
+  background: RGBA(104,34,139,0.9);
+}
+
+#avatar {
+  height: 400px;
+  border-radius: 50px;
+}
+
 .navButton {
+  position: relative;
   font-family: 'Raleway';
   font-size: 25px;
   min-width: 20px;
-  line-height: 60px;
+  top: -50px;
   padding: 0 40px;
   float: right;
   color: black;

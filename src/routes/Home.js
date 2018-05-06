@@ -1,13 +1,23 @@
 import React, { Component } from 'react';
 import NavBar from '../components/navbar';
-const village = require('../images/village.jpg')
+import Avatar from '../images/profilePicture.jpg';
+import { Grid, Row, Col } from 'react-flexbox-grid';
 
 class Home extends Component {
   render() {
     return (
       <div>
         <NavBar />
-        <img alt="Landing Page" src={ village } style={{width: '100%', height: '800px'}} />
+        <div className='parallax'></div>
+        <div className='content'>
+          <Grid fluid>
+             <Row>
+               <Col xs={6} md={3}>
+                 <img id='avatar' src={Avatar} alt='Avatar' />
+               </Col>
+             </Row>
+           </Grid>          
+        </div>
       </div>
     );
   }
