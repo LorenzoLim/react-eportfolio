@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway');
+@import url("https://fonts.googleapis.com/css?family=Lobster|Raleway");
 body {
   margin: 0;
   padding: 0;
@@ -10,32 +10,40 @@ body {
 }
 
 .parallax {
-    /* The image used */
-    background-image: url('./images/village.jpg');
+  /* The image used */
+  background-image: url("./images/village.jpg");
 
-    /* Set a specific height */
-    min-height: 800px;
+  /* Set a specific height */
+  min-height: 700px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.content {
-  height: 800px;
-  background: RGBA(104,34,139,0.9);
-}
+/* .content {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: "1070px";
+  height: "100vh";
+  position: "fixed";
+  margin: "0 auto";
+  background-color: "#F5F5F5";
+  z-index: -1;
+} */
 
 #avatar {
   height: 400px;
+  padding-top: 20px;
   border-radius: 50px;
 }
 
 .navButton {
   position: relative;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 25px;
   min-width: 20px;
   top: -50px;
