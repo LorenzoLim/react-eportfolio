@@ -1,6 +1,11 @@
 import "./App.css";
 
 function App() {
+
+  const exampleOne = () => {
+    return "Answer"
+  }
+
   return (
     <div>
       <H1>Minimum ASCII Delete Sum for Two Strings</H1>
