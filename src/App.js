@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <H1>Minimum ASCII Delete Sum for Two Strings</H1>
+      <h1>Minimum ASCII Delete Sum for Two Strings</h1>
       <div>
         Given two strings s1 and s2, return the lowest ASCII sum of deleted
         characters to make two strings equal.
