@@ -1,7 +1,7 @@
 function App() {
 
   const exampleOne = () => {
-    return "The is definitely not the answer"
+    return "Answer"
   }
 
   return (
