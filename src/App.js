@@ -1,7 +1,7 @@
 function App() {
 
   const exampleOne = () => {
-    return "Answer to example two"
+    return "Answer to example three"
   }
 
   return (
