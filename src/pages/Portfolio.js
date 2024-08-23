@@ -1,7 +1,7 @@
 function Portfolio() {
     return (
       <div>
-        Portfolio Test
+        Portfolio
       </div>
     );
   }
