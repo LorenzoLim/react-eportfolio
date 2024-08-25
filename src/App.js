@@ -1,3 +1,5 @@
+import { About, Contact, Home, Portfolio} from "./pages"
+
 function App() {
 
   const exampleOne = () => {
