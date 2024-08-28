@@ -10,6 +10,7 @@ function App() {
     <div>
       <Home />
       <About />
+      <Contact />
     </div>
   );
 }
