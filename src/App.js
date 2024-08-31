@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div>
+      <H1>Title</H1>
       <Home />
       <About />
       <Contact />
