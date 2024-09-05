@@ -7,7 +7,6 @@ function Navbar() {
         background: "transparent",
         display: "block",
         position: "fixed",
-        width: "100%",
         zIndex: 5,
         transition: "all ease .5s",
       }}
