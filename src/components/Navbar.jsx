@@ -7,7 +7,7 @@ function Navbar() {
         background: "transparent",
         display: "block",
         position: "fixed",
-        zIndex: 5,
+        zIndex: 4,
         transition: "all ease .5s",
       }}
     >
