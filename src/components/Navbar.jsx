@@ -5,6 +5,7 @@ function Navbar() {
       style={{
         height: 70,
         background: "transparent",
+        backgroundColor: "lightblue",
         display: "block",
         position: "fixed",
         zIndex: 3,
