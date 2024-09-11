@@ -4,7 +4,6 @@ function Home() {
   return (
     <div>
       <Navbar />
-      Home
     </div>
   );
 }

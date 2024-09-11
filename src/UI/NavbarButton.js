@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const NavbarButton = styled.div`
   height: 60x;
-  width: 80px;
-  padding: 20px;
+  width: 100px;
+  padding: 15.5px;
   color: white;
   background-color: #bf4f74;
   text-align: center;
