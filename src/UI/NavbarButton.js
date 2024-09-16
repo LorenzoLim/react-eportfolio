@@ -4,11 +4,17 @@ const NavbarButton = styled.div`
   height: 60x;
   width: 100px;
   padding: 15.5px;
-  color: white;
-  background-color: #bf4f74;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: black;
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-size: 25px;
+  cursor: pointer;
+  &:hover {
+    transition: all ease-in-out 300ms;
+    -webkit-transform: scale(1.3);
+  }
 `;
 
 export default NavbarButton;

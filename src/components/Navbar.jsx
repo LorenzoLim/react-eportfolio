@@ -4,9 +4,9 @@ function Navbar() {
   return (
     <div
       style={{
+        position: "fixed",
         width: "100%",
         height: 60,
-        backgroundColor: "lightblue",
         display: "flex",
         justifyContent: "flex-end",
       }}
