@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/react-eportfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/react-eportfolio/static/js/main.9bf55e6f.js",
+    "main.css": "/react-eportfolio/static/css/main.988359a9.css",
+    "main.js": "/react-eportfolio/static/js/main.14e336e4.js",
     "static/js/787.519e6f18.chunk.js": "/react-eportfolio/static/js/787.519e6f18.chunk.js",
+    "static/media/profile-picture.jpg": "/react-eportfolio/static/media/profile-picture.c919209208bbf9b5a416.jpg",
+    "static/media/adrian-infernus.jpg": "/react-eportfolio/static/media/adrian-infernus.351f9d298a6ab52986a5.jpg",
     "index.html": "/react-eportfolio/index.html",
-    "main.e6c13ad2.css.map": "/react-eportfolio/static/css/main.e6c13ad2.css.map",
-    "main.9bf55e6f.js.map": "/react-eportfolio/static/js/main.9bf55e6f.js.map",
+    "main.988359a9.css.map": "/react-eportfolio/static/css/main.988359a9.css.map",
+    "main.14e336e4.js.map": "/react-eportfolio/static/js/main.14e336e4.js.map",
     "787.519e6f18.chunk.js.map": "/react-eportfolio/static/js/787.519e6f18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.9bf55e6f.js"
+    "static/css/main.988359a9.css",
+    "static/js/main.14e336e4.js"
   ]
 }
