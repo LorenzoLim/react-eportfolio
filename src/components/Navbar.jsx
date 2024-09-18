@@ -9,12 +9,13 @@ function Navbar() {
         height: 60,
         display: "flex",
         justifyContent: "flex-end",
+        zIndex: 3,
       }}
     >
       <NavbarButton>Home</NavbarButton>
       <NavbarButton>About</NavbarButton>
-      <NavbarButton>Contact</NavbarButton>
       <NavbarButton>Portfolio</NavbarButton>
+      <NavbarButton>Contact</NavbarButton>
     </div>
   );
 }
