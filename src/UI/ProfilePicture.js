@@ -12,6 +12,11 @@ const ProfilePicture = styled.div`
   padding: 0;
   border-radius: 10px;
   background-image: url(${profilePicture});
+  float: left;
+  margin: 0 5px;
+  line-height: 100px;
+  opacity: 0;
+  animation: fadeIn 1s ease-in both;
 `;
 
 export default ProfilePicture;

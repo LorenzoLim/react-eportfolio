@@ -8,6 +8,7 @@ const CityBackdrop = styled.div`
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
 `;
 
 export default CityBackdrop;

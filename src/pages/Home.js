@@ -1,10 +1,47 @@
-import { Navbar } from "../components";
+import { useRef, useState, useEffect } from "react";
+import * as Component from "../components";
 import * as UI from "../UI";
 
 function Home() {
+  const useElementOnScreen = (options) => {
+    const containerRef = useRef(null);
+    const [isVisible, setIsVisible] = useState(false);
+
+    const callBackFunction = (entries) => {
+      const [entry] = entries;
+      // entries.forEach(entry => {
+      //   if (entry.isIntersecting) {
+      //     entry.target.classList.add('square-animation');
+      //     return;
+      //   }
+
+      //   entry.target.classList.remove('square-animation');
+      // });
+
+      setIsVisible(entry.isIntersecting);
+    };
+
+    useEffect(() => {
+      const observer = new IntersectionObserver(callBackFunction, options);
+      if (containerRef.current) observer.observe(containerRef.current);
+
+      return () => {
+        if (containerRef.current) observer.observe(containerRef.current);
+      };
+    }, [containerRef, options]);
+
+    return [containerRef, isVisible];
+  };
+
+  const [containerRef, isVisible] = useElementOnScreen({
+    root: null,
+    rootMargin: "0px",
+    threshold: 1,
+  });
+
   return (
     <div style={{ position: "relative" }}>
-      <Navbar />
+      <Component.Navbar />
       <div>
         <UI.CityBackdrop>
           <div
@@ -17,36 +54,49 @@ function Home() {
             }}
           >
             <div style={{ padding: 20, marginTop: -200 }}>
-              <UI.ProfilePicture />
+              <UI.ProfilePicture class="square" />
             </div>
             <div
               style={{
-                fontFamily: "lobster",
-                fontSize: 100,
-                borderLeft: "4px solid black",
-                paddingLeft: 100,
-                paddingTop: 100,
-                top: 200,
-                marginLeft: 100,
-                height: 400,
-                marginTop: -200,
+                animation: "fadeIn 1s ease-in both",
               }}
             >
-              <div>Lorenzo Lim</div>
               <div
                 style={{
-                  fontFamily: "raleway",
-                  fontSize: 30,
-                  padding: 20,
-                  width: 500,
+                  borderLeft: "4px solid black",
+                  paddingLeft: 100,
+                  paddingTop: 100,
+                  top: 200,
+                  marginLeft: 100,
+                  height: 400,
+                  marginTop: -200,
                 }}
               >
-                "Good code isn't defined by how complex you can make it, good
-                code is defined by making the complex simple"
+                <div style={{ fontFamily: "lobster", fontSize: 100 }}>
+                  Lorenzo Lim
+                </div>
+                <div
+                  style={{
+                    fontFamily: "raleway",
+                    fontSize: 30,
+                    padding: 20,
+                    width: 500,
+                  }}
+                >
+                  "Good code isn't defined by how complex you can make it, good
+                  code is defined by making the complex simple"
+                </div>
               </div>
             </div>
           </div>
         </UI.CityBackdrop>
+        <div className="box" ref={containerRef}>
+          <UI.Blackwood>
+            <Component.Percentage isVisible={isVisible} />
+            <Component.Percentage isVisible={isVisible} />
+            <Component.Percentage isVisible={isVisible} />
+          </UI.Blackwood>
+        </div>
       </div>
     </div>
   );
