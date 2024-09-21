@@ -9,24 +9,16 @@ function Home() {
 
     const callBackFunction = (entries) => {
       const [entry] = entries;
-      // entries.forEach(entry => {
-      //   if (entry.isIntersecting) {
-      //     entry.target.classList.add('square-animation');
-      //     return;
-      //   }
-
-      //   entry.target.classList.remove('square-animation');
-      // });
-
       setIsVisible(entry.isIntersecting);
     };
 
     useEffect(() => {
       const observer = new IntersectionObserver(callBackFunction, options);
-      if (containerRef.current) observer.observe(containerRef.current);
+      const currentContainerRef = containerRef.current;
+      if (currentContainerRef) observer.observe(currentContainerRef);
 
       return () => {
-        if (containerRef.current) observer.observe(containerRef.current);
+        if (currentContainerRef) observer.observe(currentContainerRef);
       };
     }, [containerRef, options]);
 
