@@ -72,6 +72,18 @@ img {
   stroke: #ff9f00;
 }
 
+.circular-chart.red .circle {
+  stroke: hsla(12, 100%, 50%, 0.836);
+}
+
+.circular-chart.teal .circle {
+  stroke: hsla(189, 100%, 50%, 0.836);
+}
+
+.circular-chart.pink .circle {
+  stroke: hsla(327, 88%, 56%, 0.671);
+}
+
 .circular-chart.green .circle {
   stroke: #4cc790;
 }

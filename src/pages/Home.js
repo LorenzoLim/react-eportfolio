@@ -85,8 +85,6 @@ function Home() {
         <div className="box" ref={containerRef}>
           <UI.Blackwood>
             <Component.Percentage isVisible={isVisible} />
-            <Component.Percentage isVisible={isVisible} />
-            <Component.Percentage isVisible={isVisible} />
           </UI.Blackwood>
         </div>
       </div>
