@@ -34,59 +34,57 @@ function Home() {
   return (
     <div style={{ position: "relative" }}>
       <Component.Navbar />
-      <div>
-        <UI.CityBackdrop>
+      <UI.CityBackdrop>
+        <div
+          style={{
+            position: "relative",
+            height: "100vh",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <div style={{ padding: 20, marginTop: -200 }}>
+            <UI.ProfilePicture class="square" />
+          </div>
           <div
             style={{
-              position: "relative",
-              height: "100vh",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
+              animation: "fadeIn 1s ease-in both",
             }}
           >
-            <div style={{ padding: 20, marginTop: -200 }}>
-              <UI.ProfilePicture class="square" />
-            </div>
             <div
               style={{
-                animation: "fadeIn 1s ease-in both",
+                borderLeft: "4px solid black",
+                paddingLeft: 100,
+                paddingTop: 100,
+                top: 200,
+                marginLeft: 100,
+                height: 400,
+                marginTop: -200,
               }}
             >
+              <div style={{ fontFamily: "lobster", fontSize: 100 }}>
+                Lorenzo Lim
+              </div>
               <div
                 style={{
-                  borderLeft: "4px solid black",
-                  paddingLeft: 100,
-                  paddingTop: 100,
-                  top: 200,
-                  marginLeft: 100,
-                  height: 400,
-                  marginTop: -200,
+                  fontFamily: "raleway",
+                  fontSize: 30,
+                  padding: 20,
+                  width: 500,
                 }}
               >
-                <div style={{ fontFamily: "lobster", fontSize: 100 }}>
-                  Lorenzo Lim
-                </div>
-                <div
-                  style={{
-                    fontFamily: "raleway",
-                    fontSize: 30,
-                    padding: 20,
-                    width: 500,
-                  }}
-                >
-                  "Good code isn't defined by how complex you can make it, good
-                  code is defined by making the complex simple"
-                </div>
+                "Good code isn't defined by how complex you can make it, good
+                code is defined by making the complex simple"
               </div>
             </div>
           </div>
-        </UI.CityBackdrop>
-        <div className="box" ref={containerRef}>
-          <UI.Blackwood>
-            <Component.Percentage isVisible={isVisible} />
-          </UI.Blackwood>
         </div>
+      </UI.CityBackdrop>
+      <div className="box" ref={containerRef}>
+        <UI.Blackwood>
+          <Component.Percentage isVisible={isVisible} />
+        </UI.Blackwood>
       </div>
     </div>
   );
