@@ -74,8 +74,8 @@ function Home() {
                   width: 500,
                 }}
               >
-                "Good code isn't defined by how complex you can make it, good
-                code is defined by making the complex simple"
+                "Good code isn't defined by how to make something complex, it's
+                defined by making the complex simple"
               </div>
             </div>
           </div>
