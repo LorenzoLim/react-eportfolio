@@ -15,6 +15,7 @@ function Home() {
     useEffect(() => {
       const observer = new IntersectionObserver(callBackFunction, options);
       const currentContainerRef = containerRef.current;
+
       if (currentContainerRef) observer.observe(currentContainerRef);
 
       return () => {
