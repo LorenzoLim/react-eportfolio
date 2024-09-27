@@ -55,7 +55,7 @@ function Home() {
           >
             <div
               style={{
-                borderLeft: "4px solid black",
+                borderLeft: "5px solid black",
                 paddingLeft: 100,
                 paddingTop: 100,
                 top: 200,
