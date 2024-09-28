@@ -9,7 +9,7 @@ function Navbar() {
         height: 60,
         display: "flex",
         justifyContent: "flex-end",
-        zIndex: 3,
+        zIndex: 4,
       }}
     >
       <NavbarButton>Home</NavbarButton>
