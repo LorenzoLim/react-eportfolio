@@ -6,7 +6,7 @@ const NavbarButton = styled.div`
   padding: 15.5px;
   padding-left: 40px;
   padding-right: 40px;
-  color: black;
+  color: green;
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-size: 25px;
