@@ -24,7 +24,7 @@ img {
 }
 
 .single-chart {
-  width: 33%;
+  width: 200px;
   justify-content: space-around;
 }
 
@@ -92,6 +92,14 @@ img {
   stroke: #3c9ee5;
 }
 
+.circular-chart.yellow .circle {
+  stroke: #fdfd96;
+}
+
+.circular-chart.purple .circle {
+  stroke: #c3b1e1;
+}
+
 .percentage {
   fill: white;
   font-family: sans-serif;
@@ -108,7 +116,6 @@ img {
   display: "flex";
   justify-content: center;
   align-items: center;
-  background: cornflowerblue;
   color: rgb(32, 36, 41);
   font-weight: 900;
   font-size: 18px;

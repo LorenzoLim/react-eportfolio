@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import city from "../assets/adrian-infernus.jpg";
+import brickwall from "../assets/brickwall.jpg";
 
-const CityBackdrop = styled.div`
-  background-image: url(${city});
-  height: 100vh;
+const Brickwall = styled.div`
+  background-image: url(${brickwall});
+  height: 2000px;
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -13,4 +13,4 @@ const CityBackdrop = styled.div`
   }
 `;
 
-export default CityBackdrop;
+export default Brickwall;

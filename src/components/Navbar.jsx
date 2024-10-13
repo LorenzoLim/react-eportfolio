@@ -13,8 +13,9 @@ function Navbar() {
       }}
     >
       <NavbarButton>Home</NavbarButton>
-      <NavbarButton>About</NavbarButton>
+      <NavbarButton>Skills</NavbarButton>
       <NavbarButton>Portfolio</NavbarButton>
+      <NavbarButton>About</NavbarButton>
       <NavbarButton>Contact</NavbarButton>
     </div>
   );
