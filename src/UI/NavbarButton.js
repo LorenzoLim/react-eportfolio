@@ -11,7 +11,7 @@ const NavbarButton = styled.div`
   font-family: "Raleway", sans-serif;
   font-size: 25px;
   cursor: pointer;
-  z-index: 4;
+  z-index: 3;
   &:hover {
     transition: all ease-in-out 300ms;
     -webkit-transform: scale(1.3);
