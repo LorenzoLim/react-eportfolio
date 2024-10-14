@@ -116,7 +116,7 @@ function Home() {
       <UI.Brickwall
         className="box"
         style={{
-          height: 2000,
+          height: 4000,
           backgroundAttachment: "fixed",
           backgroundPosition: "top",
           backgroundRepeat: "no-repeat",
@@ -124,7 +124,7 @@ function Home() {
         }}
       >
         <UI.Container
-          style={{ backgroundColor: "rgba(250,249,246,0.7)", height: 1920 }}
+          style={{ backgroundColor: "rgba(250,249,246,0.7)", height: 2920 }}
         >
           <div
             style={{
@@ -174,7 +174,7 @@ function Home() {
               display: "flex",
               justifyContent: "space-between",
               flexWrap: "wrap",
-              paddingTop: 100,
+              paddingTop: 20,
             }}
           >
             <div
@@ -207,9 +207,41 @@ function Home() {
             </div>
             <UI.InsuranceForm />
           </div>
-          <div style={{ marginTop: 20 }}>
+          <div style={{ margin: "20px 0px" }}>
             image source:
             https://accident-health-claims.qbe.com/public-forms/group-personal-accident-and-sickness
+          </div>
+          <div style={{ margin: "20px 0px" }}>
+            <UI.Phones rel="preload" class="square" />
+            <div>
+              image source: phones.ip2me.com.au (only available from within the
+              network)
+            </div>
+            <div
+              style={{
+                width: 920,
+                height: 180,
+                margin: "20px 0px",
+                padding: 20,
+                borderRadius: 10,
+                backgroundColor: "rgba(81,81,81,0.7)",
+              }}
+            >
+              <div
+                style={{
+                  fontFamily: "raleway",
+                  fontSize: 25,
+                  padding: 20,
+                  width: 920,
+                  color: "white",
+                }}
+              >
+                Qcoal needed a solution for their users to be able to manage
+                their phone extensions and I created an online solution where
+                they can input in their extension and it would redirect them to
+                the correct server.
+              </div>
+            </div>
           </div>
         </UI.Container>
       </UI.Brickwall>
