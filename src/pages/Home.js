@@ -116,7 +116,7 @@ function Home() {
       <UI.Brickwall
         className="box"
         style={{
-          height: 4200,
+          height: 4000,
           backgroundAttachment: "fixed",
           backgroundPosition: "top",
           backgroundRepeat: "no-repeat",
