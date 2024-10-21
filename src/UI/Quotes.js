@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import phone from "../assets/phones.jpg";
+import quotesImage from "../assets/quotes.png";
 
-const Phones = styled.div`
-  width: 500px;
+const quotes = styled.div`
+  width: 950px;
   height: 500px;
   background-size: cover;
   background-position: center center;
@@ -11,7 +11,7 @@ const Phones = styled.div`
   margin: auto;
   padding: 0;
   border-radius: 10px;
-  background-image: url(${phone});
+  background-image: url(${quotesImage});
   float: left;
   margin: 0 5px;
   line-height: 100px;
@@ -20,4 +20,4 @@ const Phones = styled.div`
   animation-delay: 0.4s;
 `;
 
-export default Phones;
+export default quotes;

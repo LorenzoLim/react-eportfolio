@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import phone from "../assets/phones.jpg";
+import phone from "../assets/forms.jpg";
 
 const Phones = styled.div`
   width: 500px;

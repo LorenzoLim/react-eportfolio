@@ -1,17 +1,14 @@
 import styled from "styled-components";
-import phone from "../assets/phones.jpg";
+import editedMonitor from "../assets/monitor.png";
 
-const Phones = styled.div`
-  width: 500px;
+const monitor = styled.div`
+  width: 950px;
   height: 500px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   text-align: center;
   margin: auto;
   padding: 0;
   border-radius: 10px;
-  background-image: url(${phone});
+  background-image: url(${editedMonitor});
   float: left;
   margin: 0 5px;
   line-height: 100px;
@@ -20,4 +17,4 @@ const Phones = styled.div`
   animation-delay: 0.4s;
 `;
 
-export default Phones;
+export default monitor;

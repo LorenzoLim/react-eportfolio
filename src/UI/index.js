@@ -7,3 +7,7 @@ export { default as Brickwall } from "./Brickwall.js";
 export { default as Award } from "./Award.js";
 export { default as InsuranceForm } from "./InsuranceForm.js";
 export { default as Phones } from "./Phones.js";
+export { default as Forms } from "./Forms.js";
+export { default as Network } from "./Network.js";
+export { default as Monitor } from "./Monitor.js";
+export { default as Quotes } from "./Quotes.js";
