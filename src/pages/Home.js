@@ -398,7 +398,7 @@ function Home() {
                   fontSize: 22,
                   padding: 20,
                   width: 880,
-                  color: "white",
+                  color: "papayawhip",
                 }}
               >
                 The sales team within the company needed an online solution to
