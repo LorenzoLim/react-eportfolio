@@ -418,6 +418,18 @@ function Home() {
           </div>
         </UI.Container>
       </UI.Brickwall>
+      <div
+        className="box"
+        style={{
+          height: 1000,
+          backgroundAttachment: "fixed",
+          backgroundPosition: "top",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        <div>Placeholder</div>
+      </div>
     </div>
   );
 }
