@@ -421,7 +421,7 @@ function Home() {
       <div
         className="box"
         style={{
-          height: 1200,
+          height: 1000,
           backgroundAttachment: "fixed",
           backgroundPosition: "top",
           backgroundRepeat: "no-repeat",
