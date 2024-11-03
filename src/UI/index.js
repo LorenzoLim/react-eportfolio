@@ -4,6 +4,7 @@ export { default as ProfilePicture } from "./ProfilePicture.js";
 export { default as Blackwood } from "./Blackwood.js";
 export { default as Container } from "./Container.js";
 export { default as Brickwall } from "./Brickwall.js";
+export { default as River } from "./River.js";
 export { default as Award } from "./Award.js";
 export { default as InsuranceForm } from "./InsuranceForm.js";
 export { default as Phones } from "./Phones.js";

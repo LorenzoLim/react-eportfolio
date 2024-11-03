@@ -95,9 +95,7 @@ function Home() {
         </UI.Container>
       </UI.CityBackdrop>
       <UI.Blackwood className="box" ref={containerRef}>
-        <UI.Container
-          style={{ backgroundColor: "rgba(81,81,81,0.7)", height: 770 }}
-        >
+        <UI.Container style={{ height: 770 }}>
           <div
             style={{
               color: "yellow",
@@ -418,7 +416,7 @@ function Home() {
           </div>
         </UI.Container>
       </UI.Brickwall>
-      <div
+      <UI.River
         className="box"
         style={{
           height: 1000,
@@ -428,8 +426,91 @@ function Home() {
           backgroundSize: "cover",
         }}
       >
-        <div>Placeholder</div>
-      </div>
+        <UI.Container
+          style={{ backgroundColor: "rgba(250,249,246,0.7)", height: 900 }}
+        >
+          <div
+            style={{
+              color: "black",
+              textAlign: "center",
+              fontSize: 70,
+              marginBottom: 60,
+            }}
+          >
+            About
+          </div>
+          <div
+            style={{
+              width: 920,
+              height: 260,
+              margin: "auto",
+              padding: 20,
+              borderRadius: 10,
+              backgroundColor: "rgba(81,81,81,0.7)",
+            }}
+          >
+            <div
+              style={{
+                fontFamily: "raleway",
+                fontSize: 22,
+                padding: 20,
+                width: 880,
+                color: "white",
+              }}
+            >
+              The sales team within the company needed an online solution to
+              generate quotes so I created this quoting website to aid in the
+              speed in which we generate quotes. The old process involved going
+              to one person and asking them to generate a quote manually using a
+              price sheet.
+              <br />
+              <br /> However with this solution, the prices are stored in the
+              database and can be adjusted on the fly so the prices will always
+              be correct and the ease of use of not having to calculate costs
+              manually and just inputting the quantity they desire and which
+              package makes the quoting tool a valuable resource to the company.
+            </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              flexWrap: "wrap",
+              paddingTop: 20,
+            }}
+          >
+            <div
+              style={{
+                width: 360,
+                height: 460,
+                margin: "auto",
+                marginTop: 0,
+                padding: 20,
+                borderRadius: 10,
+                backgroundColor: "rgba(81,81,81,0.7)",
+                animation: "fadeIn 1s ease-in both",
+                animationDelay: "0.4s",
+              }}
+            >
+              <div
+                style={{
+                  fontFamily: "raleway",
+                  fontSize: 26,
+                  padding: 20,
+                  width: 360,
+                  color: "white",
+                }}
+              >
+                At Codafication, I worked closely with our global insurance
+                client to create a group accident and illness claim form. <br />
+                <br />I was in charge of converting the designs approved to a
+                functional form with pagination and file upload capabilities.
+              </div>
+            </div>
+            <UI.InsuranceForm style={{ marginBottom: 20 }} />
+          </div>
+        </UI.Container>
+      </UI.River>
     </div>
   );
 }
