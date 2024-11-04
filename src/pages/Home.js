@@ -509,6 +509,44 @@ function Home() {
             </div>
             <UI.InsuranceForm style={{ marginBottom: 20 }} />
           </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              flexWrap: "wrap",
+              paddingTop: 20,
+            }}
+          >
+            <div
+              style={{
+                width: 360,
+                height: 460,
+                margin: "auto",
+                marginTop: 0,
+                padding: 20,
+                borderRadius: 10,
+                backgroundColor: "rgba(81,81,81,0.7)",
+                animation: "fadeIn 1s ease-in both",
+                animationDelay: "0.4s",
+              }}
+            >
+              <div
+                style={{
+                  fontFamily: "raleway",
+                  fontSize: 26,
+                  padding: 20,
+                  width: 360,
+                  color: "white",
+                }}
+              >
+                At Codafication, I worked closely with our global insurance
+                client to create a group accident and illness claim form. <br />
+                <br />I was in charge of converting the designs approved to a
+                functional form with pagination and file upload capabilities.
+              </div>
+            </div>
+            <UI.InsuranceForm style={{ marginBottom: 20 }} />
+          </div>
         </UI.Container>
       </UI.River>
     </div>
