@@ -545,7 +545,7 @@ function Home() {
                 functional form with pagination and file upload capabilities.
               </div>
             </div>
-            <UI.InsuranceForm style={{ marginBottom: 40 }} />
+            <UI.InsuranceForm style={{ marginBottom: 20 }} />
           </div>
         </UI.Container>
       </UI.River>
