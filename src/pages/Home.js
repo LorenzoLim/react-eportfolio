@@ -501,10 +501,7 @@ function Home() {
                   color: "white",
                 }}
               >
-                At Codafication, I worked closely with our global insurance
-                client to create a group accident and illness claim form. <br />
-                <br />I was in charge of converting the designs approved to a
-                functional form with pagination and file upload capabilities.
+                Placeholder
               </div>
             </div>
             <UI.InsuranceForm style={{ marginBottom: 20 }} />
