@@ -501,7 +501,7 @@ function Home() {
                   color: "white",
                 }}
               >
-                Fix on
+                Placeholder
               </div>
             </div>
             <UI.InsuranceForm style={{ marginBottom: 20 }} />
