@@ -419,7 +419,7 @@ function Home() {
       <UI.River
         className="box"
         style={{
-          height: 1000,
+          height: 2400,
           backgroundAttachment: "fixed",
           backgroundPosition: "top",
           backgroundRepeat: "no-repeat",
@@ -434,7 +434,7 @@ function Home() {
               color: "black",
               textAlign: "center",
               fontSize: 70,
-              marginBottom: 60,
+              marginBottom: 50,
             }}
           >
             About
