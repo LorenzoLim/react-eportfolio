@@ -426,9 +426,7 @@ function Home() {
           backgroundSize: "cover",
         }}
       >
-        <UI.Container
-          style={{ backgroundColor: "rgba(250,249,246,0.7)", height: 900 }}
-        >
+        <UI.Container style={{ height: 900 }}>
           <div
             style={{
               color: "black",
