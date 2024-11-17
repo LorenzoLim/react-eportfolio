@@ -429,7 +429,7 @@ function Home() {
         <UI.Container style={{ height: 900 }}>
           <div
             style={{
-              color: "black",
+              color: "white",
               textAlign: "center",
               fontSize: 70,
               marginBottom: 50,
@@ -456,15 +456,9 @@ function Home() {
                 color: "white",
               }}
             >
-              The sales team within the company needed an online solution to
-              generate quotes so I created this quoting website to aid in the
-              speed in which we generate quotes. The old process involved going
-              to one person and asking them to generate a quote manually using a
-              price sheet.
-              <br />
-              <br /> However with this solution, the prices are stored in the
-              database and can be adjusted on the fly so the prices will always
-              be correct and the ease of use of not having to calculate costs
+              However with this solution, the prices are stored in the database
+              and can be adjusted on the fly so the prices will always be
+              correct and the ease of use of not having to calculate costs
               manually and just inputting the quantity they desire and which
               package makes the quoting tool a valuable resource to the company.
             </div>
