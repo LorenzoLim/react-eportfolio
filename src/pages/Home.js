@@ -457,7 +457,6 @@ function Home() {
               }}
             >
               <br />
-              <br />
               However with this solution, the prices are stored in the database
               and can be adjusted on the fly so the prices will always be
               correct and the ease of use of not having to calculate costs
