@@ -456,12 +456,16 @@ function Home() {
                 color: "white",
               }}
             >
+              Before you read about what I have achieved in my I.T. career, let
+              me tell you a little bit about myself. I'm your typical Dungeons
+              and Dragons anime loving nerd. I love playing board games and card
+              games with my friends.
               <br />
-              However with this solution, the prices are stored in the database
-              and can be adjusted on the fly so the prices will always be
-              correct and the ease of use of not having to calculate costs
-              manually and just inputting the quantity they desire and which
-              package makes the quoting tool a valuable resource to the company.
+              <br />
+              On my free time I play a little chess and solve Rubick's cubes. I
+              love solving puzzles and keeping my brain engaged, hence why I
+              love developing so much. New problems to tackle and new ideas to
+              explore.
             </div>
           </div>
           <div
@@ -474,8 +478,8 @@ function Home() {
           >
             <div
               style={{
-                width: 360,
-                height: 460,
+                width: 540,
+                height: 400,
                 margin: "auto",
                 marginTop: 0,
                 padding: 20,
@@ -490,14 +494,22 @@ function Home() {
                   fontFamily: "raleway",
                   fontSize: 26,
                   padding: 20,
-                  width: 360,
+                  width: 520,
                   color: "white",
                 }}
               >
-                Placeholder
+                After studying at Griffith University I took a teaching role at
+                Code Camp. As the head teacher, I managed the lesson plans and
+                taught kids aged between 7-14 on the fundamentals of coding
+                using drag and drop logic blocks to create games that were
+                interactive and engaging.
+                <br />
+                <br />I travelled between NSW and QLD visiting different schools
+                to teach numerous kids the joy of coding and inspring them to
+                pursue a career in this field.
               </div>
             </div>
-            <UI.InsuranceForm style={{ marginBottom: 20 }} />
+            <UI.CodeCamp style={{ marginBottom: 20 }} />
           </div>
           <div
             style={{
@@ -507,10 +519,11 @@ function Home() {
               paddingTop: 20,
             }}
           >
+            <UI.CoderAcademy style={{ marginBottom: 20 }} />
             <div
               style={{
-                width: 360,
-                height: 460,
+                width: 540,
+                height: 400,
                 margin: "auto",
                 marginTop: 0,
                 padding: 20,
@@ -525,17 +538,109 @@ function Home() {
                   fontFamily: "raleway",
                   fontSize: 26,
                   padding: 20,
-                  width: 360,
+                  width: 540,
                   color: "white",
                 }}
               >
-                At Codafication, I worked closely with our global insurance
-                client to create a group accident and illness claim form. <br />
-                <br />I was in charge of converting the designs approved to a
-                functional form with pagination and file upload capabilities.
+                I was given the opportunity to be one of the first students to
+                participate in the very first fast track bootcamp in Brisbane.
+                This bootcamp was a six month fast track bootcamp that taught
+                revelant industry technologies and also offered an internship at
+                the end of the program.
+                <br />
+                <br />I completed the bootcamp and completed my internship at
+                Rex Labs. During my time there, I created React components and
+                wrote integration tests.
               </div>
             </div>
-            <UI.InsuranceForm style={{ marginBottom: 20 }} />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              flexWrap: "wrap",
+              paddingTop: 20,
+            }}
+          >
+            <div
+              style={{
+                width: 540,
+                height: 420,
+                margin: "auto",
+                marginTop: 0,
+                padding: 20,
+                borderRadius: 10,
+                backgroundColor: "rgba(81,81,81,0.7)",
+                animation: "fadeIn 1s ease-in both",
+                animationDelay: "0.4s",
+              }}
+            >
+              <div
+                style={{
+                  fontFamily: "raleway",
+                  fontSize: 26,
+                  padding: 20,
+                  width: 520,
+                  color: "white",
+                }}
+              >
+                My first full time Software Engineering role was at
+                Codafication. My first project there was to work on the
+                extensions list for their portal. Our platform was submitted to
+                the Digital Insurance Agenda in Munich Germany and won an award.
+                <br />
+                <br />
+                Afterwards I worked closely with our global insurance client QBE
+                on an online insurance form. The project was a success and is
+                still in use to this day. Afterwards I was mainly working on bug
+                fixes and quality of life improvements.
+              </div>
+            </div>
+            <UI.Codafication style={{ marginBottom: 20 }} />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              flexWrap: "wrap",
+              paddingTop: 20,
+            }}
+          >
+            <UI.Techx style={{ marginBottom: 20 }} />
+            <div
+              style={{
+                width: 540,
+                height: 420,
+                margin: "auto",
+                marginTop: 0,
+                padding: 20,
+                borderRadius: 10,
+                backgroundColor: "rgba(81,81,81,0.7)",
+                animation: "fadeIn 1s ease-in both",
+                animationDelay: "0.4s",
+              }}
+            >
+              <div
+                style={{
+                  fontFamily: "raleway",
+                  fontSize: 26,
+                  padding: 20,
+                  width: 540,
+                  color: "white",
+                }}
+              >
+                I've been with RBC group for nearly 5 years and I have been
+                chosen to represent them at the TechX conference. During my time
+                at RBC Group I have completed many projects over the years and
+                worked with many clients.
+                <br />
+                <br />I manage RBC Groups internal forms as well as any internal
+                projects that they assign to me. I deal with the design,
+                development, deployment and maintenance of all of our projects.
+                I manage a junior developer under me and teach them coding
+                patterns and principles.
+              </div>
+            </div>
           </div>
         </UI.Container>
       </UI.River>

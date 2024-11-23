@@ -12,3 +12,7 @@ export { default as Forms } from "./Forms.js";
 export { default as Network } from "./Network.js";
 export { default as Monitor } from "./Monitor.js";
 export { default as Quotes } from "./Quotes.js";
+export { default as CodeCamp } from "./CodeCamp.js";
+export { default as CoderAcademy } from "./CoderAcademy.js";
+export { default as Codafication } from "./Codafication.js";
+export { default as Techx } from "./Techx.js";
