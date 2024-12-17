@@ -479,7 +479,7 @@ function Home() {
             <div
               style={{
                 width: 540,
-                height: 400,
+                height: 360,
                 margin: "auto",
                 marginTop: 0,
                 padding: 20,
@@ -492,7 +492,7 @@ function Home() {
               <div
                 style={{
                   fontFamily: "raleway",
-                  fontSize: 26,
+                  fontSize: 23,
                   padding: 20,
                   width: 520,
                   color: "white",
@@ -523,7 +523,7 @@ function Home() {
             <div
               style={{
                 width: 540,
-                height: 400,
+                height: 360,
                 margin: "auto",
                 marginTop: 0,
                 padding: 20,
@@ -536,7 +536,7 @@ function Home() {
               <div
                 style={{
                   fontFamily: "raleway",
-                  fontSize: 26,
+                  fontSize: 24,
                   padding: 20,
                   width: 540,
                   color: "white",
@@ -565,7 +565,7 @@ function Home() {
             <div
               style={{
                 width: 540,
-                height: 420,
+                height: 360,
                 margin: "auto",
                 marginTop: 0,
                 padding: 20,
@@ -578,7 +578,7 @@ function Home() {
               <div
                 style={{
                   fontFamily: "raleway",
-                  fontSize: 26,
+                  fontSize: 23,
                   padding: 20,
                   width: 520,
                   color: "white",
@@ -623,9 +623,9 @@ function Home() {
               <div
                 style={{
                   fontFamily: "raleway",
-                  fontSize: 26,
+                  fontSize: 24,
                   padding: 20,
-                  width: 540,
+                  width: 520,
                   color: "white",
                 }}
               >
