@@ -5,18 +5,90 @@ function Skills(props) {
     <div>
       <div
         class="flex-wrapper"
-        style={{ justifyContent: "space-between", marginBottom: 90 }}
+        style={{ justifyContent: "space-between", marginBottom: 20 }}
       >
-        <Percentage percent={90} text="Javascript" color="orange" />
-        <Percentage percent={70} text="SQL" color="green" />
-        <Percentage percent={85} text="Node" color="blue" />
-        <Percentage percent={95} text="React" color="red" />
+        <Percentage
+          percent={94}
+          text="React"
+          color="orange"
+          isVisible={props.isVisible}
+        />
+        <Percentage
+          percent={70}
+          text="Typescript"
+          color="green"
+          isVisible={props.isVisible}
+        />
+        <Percentage
+          percent={85}
+          text="Javascript"
+          color="blue"
+          isVisible={props.isVisible}
+        />
+        <Percentage
+          percent={90}
+          text="Node"
+          color="red"
+          isVisible={props.isVisible}
+        />
       </div>
-      <div class="flex-wrapper" style={{ justifyContent: "space-between" }}>
-        <Percentage percent={75} text="Docker" color="purple" />
-        <Percentage percent={65} text="GraphQL" color="teal" />
-        <Percentage percent={80} text="PHP" color="yellow" />
-        <Percentage percent={96} text="Express" color="pink" />
+      <div
+        class="flex-wrapper"
+        style={{ justifyContent: "space-between", marginBottom: 20 }}
+      >
+        <Percentage
+          percent={70}
+          text="Docker"
+          color="purple"
+          isVisible={props.isVisible}
+        />
+        <Percentage
+          percent={92}
+          text="Express"
+          color="teal"
+          isVisible={props.isVisible}
+        />
+        <Percentage
+          percent={63}
+          text="MSSQL"
+          color="yellow"
+          isVisible={props.isVisible}
+        />
+        <Percentage
+          percent={55}
+          text="Ruby"
+          color="pink"
+          isVisible={props.isVisible}
+        />
+      </div>
+      <div
+        class="flex-wrapper"
+        style={{ justifyContent: "space-between", marginBottom: 20 }}
+      >
+        <Percentage
+          percent={65}
+          text="GraphQL"
+          color="gold"
+          isVisible={props.isVisible}
+        />
+        <Percentage
+          percent={60}
+          text="Azure AD"
+          color="violet"
+          isVisible={props.isVisible}
+        />
+        <Percentage
+          percent={80}
+          text="PHP"
+          color="lightblue"
+          isVisible={props.isVisible}
+        />
+        <Percentage
+          percent={70}
+          text="Webpack"
+          color="mintgreen"
+          isVisible={props.isVisible}
+        />
       </div>
     </div>
   );

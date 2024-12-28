@@ -34,7 +34,6 @@ function Home() {
 
   return (
     <div style={{ position: "relative" }}>
-      <Component.Navbar />
       <UI.CityBackdrop>
         <UI.Container>
           <div
@@ -95,19 +94,18 @@ function Home() {
         </UI.Container>
       </UI.CityBackdrop>
       <UI.Blackwood className="box" ref={containerRef}>
-        <UI.Container style={{ height: 770 }}>
+        <UI.Container>
           <div
             style={{
               color: "yellow",
               textAlign: "center",
               fontSize: 70,
-              marginBottom: 60,
             }}
           >
             Skills
           </div>
-          <div isVisible={isVisible}>
-            <Component.Skills />
+          <div>
+            <Component.Skills isVisible={isVisible} />
           </div>
         </UI.Container>
       </UI.Blackwood>

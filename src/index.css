@@ -100,6 +100,22 @@ img {
   stroke: #c3b1e1;
 }
 
+.circular-chart.gold .circle {
+  stroke: #eeb824;
+}
+
+.circular-chart.violet .circle {
+  stroke: #bd36c2;
+}
+
+.circular-chart.lightblue .circle {
+  stroke: #463bdb;
+}
+
+.circular-chart.mintgreen .circle {
+  stroke: #2fb663;
+}
+
 .percentage {
   fill: white;
   font-family: sans-serif;
@@ -119,5 +135,4 @@ img {
   color: rgb(32, 36, 41);
   font-weight: 900;
   font-size: 18px;
-  height: 800px;
 }
