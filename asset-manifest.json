@@ -1,17 +1,31 @@
 {
   "files": {
-    "main.css": "/react-eportfolio/static/css/main.988359a9.css",
-    "main.js": "/react-eportfolio/static/js/main.14e336e4.js",
-    "static/js/787.519e6f18.chunk.js": "/react-eportfolio/static/js/787.519e6f18.chunk.js",
+    "main.css": "/react-eportfolio/static/css/main.1da87ea8.css",
+    "main.js": "/react-eportfolio/static/js/main.bdb21724.js",
+    "static/js/787.6c1c352a.chunk.js": "/react-eportfolio/static/js/787.6c1c352a.chunk.js",
     "static/media/profile-picture.jpg": "/react-eportfolio/static/media/profile-picture.c919209208bbf9b5a416.jpg",
+    "static/media/codafication.jpg": "/react-eportfolio/static/media/codafication.d11ed7fa82b60cf44499.jpg",
     "static/media/adrian-infernus.jpg": "/react-eportfolio/static/media/adrian-infernus.351f9d298a6ab52986a5.jpg",
+    "static/media/blackwood.jpg": "/react-eportfolio/static/media/blackwood.3143a9e6b91cb86ce39b.jpg",
+    "static/media/techx.jpg": "/react-eportfolio/static/media/techx.3b0afbd9661dac94d507.jpg",
+    "static/media/award.jpg": "/react-eportfolio/static/media/award.6b09e1d1c9dd9fa58d02.jpg",
+    "static/media/brickwall.jpg": "/react-eportfolio/static/media/brickwall.46f9749d72f3246fd48b.jpg",
+    "static/media/monitor.png": "/react-eportfolio/static/media/monitor.1dd297a2b6bbf217f766.png",
+    "static/media/river.jpg": "/react-eportfolio/static/media/river.edce50de3ede4b294acf.jpg",
+    "static/media/quotes.png": "/react-eportfolio/static/media/quotes.053f49c8b53406932115.png",
+    "static/media/network.png": "/react-eportfolio/static/media/network.4703fc20c186a6ab96a5.png",
+    "static/media/coder-academy.jpg": "/react-eportfolio/static/media/coder-academy.88ff16a4ccb6009f6e36.jpg",
+    "static/media/insurance-form.jpg": "/react-eportfolio/static/media/insurance-form.b84302b31e56ae70078d.jpg",
+    "static/media/forms.jpg": "/react-eportfolio/static/media/forms.cfde7999fa6d3f99fc4d.jpg",
+    "static/media/code-camp.jpg": "/react-eportfolio/static/media/code-camp.6c2c7e231040cf44cb73.jpg",
+    "static/media/phones.jpg": "/react-eportfolio/static/media/phones.e6af197cbe6fac7d681a.jpg",
     "index.html": "/react-eportfolio/index.html",
-    "main.988359a9.css.map": "/react-eportfolio/static/css/main.988359a9.css.map",
-    "main.14e336e4.js.map": "/react-eportfolio/static/js/main.14e336e4.js.map",
-    "787.519e6f18.chunk.js.map": "/react-eportfolio/static/js/787.519e6f18.chunk.js.map"
+    "main.1da87ea8.css.map": "/react-eportfolio/static/css/main.1da87ea8.css.map",
+    "main.bdb21724.js.map": "/react-eportfolio/static/js/main.bdb21724.js.map",
+    "787.6c1c352a.chunk.js.map": "/react-eportfolio/static/js/787.6c1c352a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.988359a9.css",
-    "static/js/main.14e336e4.js"
+    "static/css/main.1da87ea8.css",
+    "static/js/main.bdb21724.js"
   ]
 }
